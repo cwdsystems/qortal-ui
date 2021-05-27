@@ -9,7 +9,7 @@ Follow the steps below to download, install, build and run Qortal UI locally.
 
 Installation
 ------------
-Packaged required:
+Packages required:
  - Node.js
  - npm
  - yarn
