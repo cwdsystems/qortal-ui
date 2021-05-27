@@ -60,7 +60,8 @@ yarn run build
 Start UI Server
 ---------------
 ```
-yarn run server
+yarn run server & (takes the process in the background)
+access the UI http://ip-address:12388
 ```
 
 
