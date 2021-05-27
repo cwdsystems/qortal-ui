@@ -9,10 +9,22 @@ Follow the steps below to download, install, build and run Qortal UI locally.
 
 Installation
 ------------
-Tools needed:
+Packaged required:
  - Node.js
  - npm
  - yarn
+
+Easiest way to install the lastest required packages is via nvm. 
+
+``` sudo apt update && sudo apt install curl -y ```
+``` curl https://raw.githubusercontent.com/creationix/nvm/master/install.sh | bash ```
+``` source ~/.profile ``` (For Debian based distro)
+``` source ~/.bashrc ``` (For Fedora / CentOS)
+``` nvm ls-remote ``` (Fetch list of available versions)
+``` nvm install v14.17.0 ```  (Latest LTS: Fermium as of writing)
+``` npm -g install yarn ```
+
+Verify with node --version
 
 Clone the following repos
  - ``` git clone https://github.com/Qortal/qortal-ui.git ```
