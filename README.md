@@ -40,6 +40,8 @@ yarn install
 yarn link
 ```
 
+Note that if you have previously installed the UI from source then you must perform a `yarn unlink` before you proceed with `yarn link` inside the folders.
+
 Finally, in the `qortal-ui` directory, run:
 ```
 yarn install
