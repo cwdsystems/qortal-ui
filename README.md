@@ -57,12 +57,13 @@ In `qortal-ui` directory, run:
 yarn run build
 ```
 
-Start UI Server
----------------
+Start UI Server ( preferred way )
+-------------------------------
 ```
 yarn run server
 ```
 
+Use "&" in the end  to move UI process in the background
 
 Run UI using electron
 ---------------------
